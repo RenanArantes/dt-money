@@ -5,7 +5,7 @@
       "description": "Desenvolvimento de Site",
       "type": "income",
       "category": "Venda",
-      "price": 14000.00,
+      "price": 14000,
       "createdAt": "2022-10-04T17:14:51.614Z"
     },
     {
@@ -13,8 +13,32 @@
       "description": "Hambúrger",
       "type": "outcome",
       "category": "Alimentação",
-      "price": 20.00,
+      "price": 20,
       "createdAt": "2022-10-04T17:21:51.614Z"
+    },
+    {
+      "description": "CRIACAO DE APP",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2022-10-05T18:17:12.569Z",
+      "id": 3
+    },
+    {
+      "description": "asd",
+      "price": 123,
+      "category": "asd",
+      "type": "outcome",
+      "createdAt": "2022-10-05T18:29:05.453Z",
+      "id": 4
+    },
+    {
+      "description": "Academia",
+      "price": 90,
+      "category": "Saúde",
+      "type": "outcome",
+      "createdAt": "2022-10-05T18:31:35.360Z",
+      "id": 5
     }
   ]
 }
