@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react'
+import { useContext } from 'react'
 import { Header } from '../../components/Header'
 import { Summary } from '../../components/Summary'
 import { TransactionsContext } from '../../contexts/TransactionsContext'
@@ -9,15 +9,6 @@ import {
   TransactionContainer,
   TransationsTable,
 } from './styles'
-
-interface Transactions {
-  id: number
-  description: string
-  type: 'income' | 'outcome'
-  price: number
-  category: string
-  createdAt: string
-}
 
 export function Transations() {
   const { transactions } = useContext(TransactionsContext)
